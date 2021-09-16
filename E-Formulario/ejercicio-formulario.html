@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!-- terminarlo -->
+<html lang = "es">
+    <head>
+        <meta charset = "UTF-8" />
+        <link rel="stylesheet" type="text/css" href="ejercicio-formulario.css">
+        <title> Mi primer formulario </title>
+    </head>
+    <body>
+        <h2>Base de datos/Registro médico.</h2>
+        <h1 class="title"> Información médica </h1>
+        <form id="post">
+            <p class="nombre">
+                <label for="name"> Nombres:</label>
+                <input type="text" name="name" style="width:300px;height:18px"/>
+            </p>
+            <p class="apellido-paterno">
+                <label for="name"> Apellido Paterno:</label>
+                <input type="text" name="name" style="width:245px;height:18px"/>
+            </p>
+            <p class="apellido-materno">
+                <label for="name"> Apellido Materno:</label>
+                <input type="text" name="name" style="width:240px;height:18px"/>
+            </p>
+            <p class="CURP">
+                <label for="name"> CURP:</label>
+                <input type="text" name="name" style="width:330px;height:18px"/>
+            </p>
+            <p class="NSS">
+                <label for="name"> NSS:</label>
+                <input type="text" name="name" style="width:340px;height:18px"/>
+            </p>
+            <p class="email">
+                <label for="email"> Correo electronico:</label>
+                <input type="" name="email" style="width:225px;height:18px"/>
+            </p>
+            <p class="postracion">
+                <label for="padecimiento"> Se encuentra en estado de postración:</label><br />
+                <label for="">Si</label>
+                <input type="radio" name=""/>
+                <label for="">No</label>
+                <input type="radio" name=""/>
+            </p>
+            
+            <p class="padecimiento">
+                <label for="padecimiento"> Padece una de las diguientes enfermedades degenerativas:</label><br />
+                <label for="">Diabetes</label>
+                <input type="radio" name=""/>
+                <label for=""> /Presión Arterial</label>
+                <input type="radio" name=""/>
+                <label for=""> /Alzheimer</label>
+                <input type="radio" name=""/>
+                <label for=""> /Parkinson</label>
+                <input type="radio" name=""/><br/>
+                <label for="">Otra</label>
+                <input type="radio" name=""/>
+            </p>
+            <p class="box-comment">
+                <label for="box-comment">Describa cual:</label><br /><br />
+                <textarea name="box-comment" id="" cols="50" rows="8"></textarea>
+            </p>
+            <p class="lista">
+                <label for="GS">Grupo Sanguíneo</label>
+                <select name="GS">
+                    <option value="°">O+</option>
+                    <option value="°">A+</option>
+                    <option value="°">B+</option>
+                    <option value="°">O-</option>
+                    <option value="°">A-</option>
+                    <option value="°">B-</option>
+                </select>
+            </p>
+            <button class="button" type="submit" style="width:195px;height:38px">Terminar formulario</button>
+        </form>
+    </body>
+</html>

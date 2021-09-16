@@ -1,0 +1,107 @@
+/* ´PRINCIPAL */
+
+body {
+    background-image: url(" https://image.winudf.com/v2/image/Y29tLmdhbGF4eXdhbGxwYXBlci5oZC5nYWxheHlwaWN0dXJlcy5waG90b3MuYmFja2dyb3VuZC5jdXRlLmNvb2wuYXJ0LmdhbGF4eWltYWdlcy5oZC5mcmVlX3NjcmVlbl8xXzE1MzI3MTk5NTBfMDAy/screen-1.jpg?fakeurl=1&type=.jpg");
+}
+#Tprincipal {
+    color: rgba(53, 131, 22, 0.863);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.657);
+    border-radius: 30px;
+    font-size: 56px;
+    
+
+}
+
+ul { /* fondo de la barra transparente, letras blancas  */
+    font-size: 26.6px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  color: rgb(224, 217, 233);
+  text-align: center;
+  left: 40%;
+}
+
+
+
+li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+li a:hover { /* permite que sea horizontal y no lista */
+    background-color: rgb(84, 196, 240);
+}
+
+.la-materia {
+    background-color: #3769d68c;
+}
+  
+.propiedades {
+      background-color: #c34cdb60;
+}
+  
+.definiciones {
+      background-color: #3f74c5c0;
+}
+    
+.formulas{
+      background-color: #22b48880;
+}
+.densidad {
+      background-color: rgba(255, 255, 0, 0.534);
+}
+
+.textura {
+      background-color: #22925eb6;
+}
+  
+.ley-cons {
+      background-color: #c946a8a8;
+}
+  
+.libros {
+      background-color: #e7b616ab;
+}
+  
+.estados {
+    background-color: #f39455c5;
+}
+.contacto {
+      background-color: rgba(143, 188, 143, 0.698);
+      
+}
+  
+.Dis {
+      background-color: #7a6f2f71;
+      color: rgb(248, 159, 207);
+      border: deeppink;
+      border-radius: 60px;
+      font-size: 25px;
+}
+#T-materia {
+    color: white;
+}
+#tex-materia {
+    color: whitesmoke ;
+}
+
+
+
+/* GALERIA */
+
+
+
+
+/* CONTACTO */
+
+

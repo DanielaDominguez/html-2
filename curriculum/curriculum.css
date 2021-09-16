@@ -1,0 +1,74 @@
+body {
+    background-color: #e7e2e296;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title { 
+    text-align: center;
+}
+
+.subtitle { /* renglon 1 */
+    background-color: #d0cfcfc1;
+    color: black;
+    height: 20px;
+}
+
+.rojo { /* titulos rojos y cajas */
+    background-color: rgba(128, 128, 128, 0.856);
+    color: red;
+    line-height: 100%;
+}
+
+#cajaDP {
+    background-color: #d0cfcfc1;
+    height: 135px;
+    
+}
+
+.azul {
+    color: blue;
+    text-decoration: underline blue;
+    font-weight: bold;
+    
+}
+
+#cajaEL {
+    background-color: #d0cfcfc1;
+    height: 60px;
+}
+
+#cajaEyF {
+    background-color: #d0cfcfc1;
+    height: 80px;
+}
+
+.verde {
+    color: rgb(9, 187, 9);
+}
+
+.morado {
+    color: rgb(163, 13, 151);
+    background-color: #bebebe;
+}
+
+#cajaOI {
+    background-color: #d0cfcfc1;
+    height: 60px;
+
+}
+
+.cyat {
+    background-color: #d0cfcfc1;
+    height: 43px;
+}
+
+#cajablanca {
+    background-color: white;
+    text-align: right;
+    height: 43px;
+}
+
+.linea {
+    height: 2px;
+    background-color: black;
+}
+

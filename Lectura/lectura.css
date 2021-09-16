@@ -1,0 +1,65 @@
+body {
+    background-color:lightblue; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: right;
+}
+
+h2 {
+    font-family: Vendana (sans-serif);
+}
+
+.rojo {
+    color: red;
+    font-family: cursive;
+}
+
+.Lnaranja {
+    color: rgba(216, 141, 20, 0.876);
+    font-weight: bold; /* grosor de letra */
+}
+
+.Nnaranja {
+    color: rgba(216, 141, 20, 0.876);
+}
+
+.verde {
+    color: rgb(29, 139, 62);
+    background-color: white;
+    font-style: oblique; /* inclinada */
+}
+
+.pie {
+    text-align: center;
+    font-size: 12px; /* tamaño de letra */
+    font-style: oblique;
+}
+
+.mayusculas {
+    font-size: 35px; 
+}
+
+/* orientacion del texto  */
+#p-origen, #p-origen2 {
+    text-indent: 3em;/* dar espacio al comenzar el parrafo */
+    text-align: justify;  
+    white-space: initial; /* interlineado entre parrafo */
+    line-height: 26px; /* interlineado entre renglones */
+}
+
+#p-difusion, #p-difusion2 {
+    text-indent: 3em;
+    text-align: justify;
+    white-space: initial;
+    line-height: 26px;
+}
+
+#p-critica, #p-critica2, #p-critica3 {
+    text-indent: 3em;
+    white-space: initial;
+    line-height: 26px;
+    text-align: justify;
+
+}
