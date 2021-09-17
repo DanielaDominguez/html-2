@@ -4,9 +4,91 @@
     <head>
         <meta charset="UTF-8" />
         <link href="minisitio.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <title> Contacto </title>
     </head>
-    <body>
+    <body id="body-contacto">
+
+        <p class="T-contacto">
+            Si te gusto el tema te ínvito a ingresar la siguiente información la cual nos ayudará a enviarte información relacionada con LA MATERIA.
+        </p>
+        <form id="post">
+            <br /><br /><br />
+            <p class="nombre">
+                <label for="name"> Nombres:</label><br />
+                <input type="text" name="name" style="width:300px;height:25px"/>
+            </p>
+            <br /><br /><br />
+
+            <p class="si-no">
+                <label for="padecimiento"> Acepto recibir notificaciones a los siguientes medios:</label><br />
+                <label for="">Si</label>
+                <input type="radio" name=""/>
+                <label for="">No</label>
+                <input type="radio" name=""/>
+            </p>
+            <br /><br />  
+
+            <p class="phone">
+                <label for="phone"> Ingresa tu número celular:</label><br />
+                <input type="text" name="phone" style="width:340px;height:18px"/>
+            </p>
+            <br /><br />
+
+            <p class="edad">
+                <label for="number:">Ingresa tu edad</label><br />
+                <input type="number" name="name" style="width:340px;height:18px"/>
+            </p>
+            <br /><br />
+
+            <p class="email">
+                <label for="email"> Correo electronico:</label>
+                <input type="" name="email" style="width:225px;height:18px"/>
+            </p>
+            <br /><br />
+            
+            <p class="experiencia">
+                <label for="padecimiento"> Cual fue tu experiencia en el sitio web:</label><br />
+                <label for="">Excelente</label>
+                <input type="radio" name=""/><br />
+                <label for=""> Muy buena</label>
+                <input type="radio" name=""/><br />
+                <label for=""> Buena</label>
+                <input type="radio" name=""/><br />
+                <label for=""> Regular</label>
+                <input type="radio" name=""/><br/>
+                <label for="">No me gustó</label>
+                <input type="radio" name=""/>
+            </p>
+            <br /><br />
+
+            <p class="lista">
+                <label for="exp">Califica tu experiencia en este sitio, donde 10 es muy satisfactorio.</label>
+                <select name="experiencia">
+                    <option value="°">1</option>
+                    <option value="°">2</option>
+                    <option value="°">3</option>
+                    <option value="°">4</option>
+                    <option value="°">5</option>
+                    <option value="°">6</option>
+                    <option value="°">7</option>
+                    <option value="°">8</option>
+                    <option value="°">9</option>
+                    <option value="°">10</option>
+                    
+                </select>
+            </p>
+            <br /><br />
+
+            <p class="box-comment">
+                <label for="box-comment">Describe tu experiencia:</label><br /><br />
+                <textarea name="box-comment" id="" cols="40" rows="8"></textarea>
+            </p>
+            <br /><br />
+            
+            <button class="button" type="submit" style="width:195px;height:38px">Terminar formulario</button>
+        </form>
         
     </body>
 

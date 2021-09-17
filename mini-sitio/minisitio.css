@@ -1,7 +1,7 @@
 /* ´PRINCIPAL */
-
-body {
-    background-image: url(" https://image.winudf.com/v2/image/Y29tLmdhbGF4eXdhbGxwYXBlci5oZC5nYWxheHlwaWN0dXJlcy5waG90b3MuYmFja2dyb3VuZC5jdXRlLmNvb2wuYXJ0LmdhbGF4eWltYWdlcy5oZC5mcmVlX3NjcmVlbl8xXzE1MzI3MTk5NTBfMDAy/screen-1.jpg?fakeurl=1&type=.jpg");
+#body-materia {
+      background-size: cover;
+      background-image: url(" https://image.winudf.com/v2/image/Y29tLmdhbGF4eXdhbGxwYXBlci5oZC5nYWxheHlwaWN0dXJlcy5waG90b3MuYmFja2dyb3VuZC5jdXRlLmNvb2wuYXJ0LmdhbGF4eWltYWdlcy5oZC5mcmVlX3NjcmVlbl8xXzE1MzI3MTk5NTBfMDAy/screen-1.jpg?fakeurl=1&type=.jpg");
 }
 #Tprincipal {
     color: rgba(53, 131, 22, 0.863);
@@ -9,28 +9,40 @@ body {
     background-color: rgba(255, 255, 255, 0.657);
     border-radius: 30px;
     font-size: 56px;
-    
-
+   
+   
 }
 
-ul { /* fondo de la barra transparente, letras blancas  */
-    font-size: 26.6px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0);
-  position: -webkit-sticky; 
-  position: sticky;
-  top: 0;
-  color: rgb(224, 217, 233);
-  text-align: center;
-  left: 40%;
+.titulomenu {
+      height: 35px;
+      width: 91%;
+      margin: 0 auto;
+      background-image: url("colores.jpg");
+      color: rgb(13, 33, 98);
+      font-weight: bold;
+      margin-left: 3.55em;
+      font-family: 'Raleway', sans-serif;
+      font-size: 27px;
+      text-indent: 1em;
 }
 
+ul {/* Opciones de menú fondo de la barra transparente, letras blancas  */
+      font-size: 26.6px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0);
+      position: -webkit-sticky; 
+      position: sticky;
+      top: 0;
+      color: rgb(224, 217, 233);
+      text-align: center;
+      left: 40%; 
+      width: 95%;
+}
 
-
-li a {
+li a { /* hace que la barra de menu sea flotante */
     float: left;
     display: block;
     color: white;
@@ -38,10 +50,11 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 } 
+
 li a:hover { /* permite que sea horizontal y no lista */
     background-color: rgb(84, 196, 240);
 }
-
+/* propiedades del menú */
 .la-materia {
     background-color: #3769d68c;
 }
@@ -57,7 +70,7 @@ li a:hover { /* permite que sea horizontal y no lista */
 .formulas{
       background-color: #22b48880;
 }
-.densidad {
+.test {
       background-color: rgba(255, 255, 0, 0.534);
 }
 
@@ -79,29 +92,257 @@ li a:hover { /* permite que sea horizontal y no lista */
 .contacto {
       background-color: rgba(143, 188, 143, 0.698);
       
-}
+}/* final de barra del menú */
+
   
-.Dis {
-      background-color: #7a6f2f71;
-      color: rgb(248, 159, 207);
-      border: deeppink;
-      border-radius: 60px;
-      font-size: 25px;
-}
 #T-materia {
-    color: white;
+      text-indent: 3em ;
+      color: white;
+      font-size: 70px;
+      font-family: 'Shadows Into Light', cursive;
 }
+
 #tex-materia {
     color: whitesmoke ;
+    text-indent: 3em ;
+    font-size: 35px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align:justify;
+    width: 80%;
+    margin: 0 auto;
+}
+/* tabla */
+
+#tabla {
+      width: 70%;
+      margin: 0 auto; /* centrada */
 }
 
+table { /* propiedad que impide que las lineas horizontales de la tabla se les note la division entre columnas */
+      border-collapse: collapse;
+      
+}
+    
+th, td { /* hace que se vean y organice la tabla */
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+}
+    
+tr:hover { /* propiedad que hace que al pasar el mouse por la tabla se selecciones con color */
+      background-color: rgba(255, 255, 0, 0.287);
+}
 
+.tit-table { /* pripiedades del titulo de tabla */
+      font-size: 45px;
+      color: rgb(45, 124, 120);
+      background-color: rgba(245, 245, 245, 0.52);
+}
+#sub-tit-tabla {
+      background-color: rgba(49, 207, 173, 0.609);
+      text-indent: 3em;
+}
+
+tr {
+      color: whitesmoke;
+      font-size: 22px;
+      text-indent: 2em;
+}
 
 /* GALERIA */
 
+#body-galeria {
+      background-image: url("https://estaticos.muyinteresante.es/uploads/images/article/5d775b065cafe80440c61fe4/edad-oscura_0.jpg");
+      background-size: cover;
+}
 
+.T-galeria {
+      text-align: center;
+      color: rgba(182, 182, 212, 0.452);
+      font-size: 100px;
+      font-family: 'Shadows Into Light', cursive;
+      height: 1px;
+      
+}
 
+.t-liq {
+      height: 70px;
+      text-align: left;
+      text-indent: 1em;
+      color: rgba(64, 155, 207, 0.918);
+      font-size: 120px;
+      font-family: 'Shadows Into Light', cursive;
+}
+
+#boxliq {
+      text-indent: 10em;
+      height: 130px;
+      width: 80%;
+      margin: 0 auto;
+}
+
+.t-sol {
+      height: 70px;
+      text-align: left;
+      text-indent: 1em;
+      color: rgba(64, 155, 207, 0.918);
+      font-size: 120px;
+      font-family: 'Shadows Into Light', cursive;
+}
+
+#boxsol {
+      text-indent: 10em;
+      height: 130px;
+      width: 80%;
+      margin: 0 auto;
+}
+
+.t-gas {
+      height: 70px;
+      text-align: left;
+      text-indent: 1em;
+      color: rgba(64, 155, 207, 0.918);
+      font-size: 120px;
+      font-family: 'Shadows Into Light', cursive;
+}
+
+#boxgas {
+      text-indent: 10em;
+      height: 130px;
+      width: 80%;
+      margin: 0 auto;
+}
 
 /* CONTACTO */
+
+#body-contacto {
+      background-image: url("https://contexto.udlap.mx/wp-content/uploads/2020/12/EL-CUARTO-ESTADO-1024x500_c.jpg");
+      background-size: cover;
+}
+
+.T-contacto {
+      font-size: 45px;
+      width: 50%;
+      margin: 0 auto;
+      color: white;
+      text-align: center;
+      text-shadow: rgb(197, 230, 52) 2px 2px 8px;
+      background-color: rgba(189, 125, 231, 0.39);
+      border-radius: 8px;
+}
+
+#post {
+      text-align: center;
+}
+  
+.nombre {
+      font-size: 25px;
+      width: 30%;
+      margin: 0 auto;
+      font-family: cursive;
+      font-style: oblique;
+      color: rgba(101, 186, 235, 0.918);
+      border-radius: 30px;
+      line-height: 45px;
+      font-weight: bold;
+}
+
+.si-no {
+      font-size: 35px;
+      width: 60%;
+      margin: 0 auto;
+      font-family: cursive;
+      color: rgba(218, 119, 193, 0.897);
+      background-color: rgba(70, 57, 57, 0.692);
+      line-height: 45px;
+      border-radius: 5px;
+      font-weight: bold;
+}
+
+.phone {
+      font-size: 25px;
+      width: 20%;
+      margin: 0 auto;
+      font-family: cursive;
+      font-style: oblique;
+      color: rgba(101, 186, 235, 0.918);
+      background-color: rgba(66, 56, 197, 0.795);
+      border-radius: 10px;
+      line-height: 45px;
+      font-weight: bold;
+}
+  
+.edad {
+      font-size: 25px;
+      width: 20%;
+      margin: 0 auto;
+      font-family: cursive;
+      font-style: oblique;
+      color: rgba(101, 186, 235, 0.918);
+      background-color: rgba(66, 56, 197, 0.795);
+      border-radius: 10px;
+      line-height: 45px;
+      font-weight: bold;
+}
+  
+.email {
+      font-size: 25px;
+      width: 20%;
+      margin: 0 auto;
+      font-family: cursive;
+      color: rgba(101, 186, 235, 0.918);
+      background-color: rgba(66, 56, 197, 0.795);
+      line-height: 45px;
+      border-radius: 5px;
+      font-weight: bold;
+}
+  
+
+.experiencia {
+      font-size: 18px;
+      width: 20%;
+      margin: 0 auto;
+      font-family: cursive;
+      color: rgba(101, 186, 235, 0.918);
+      background-color: rgba(66, 56, 197, 0.795);
+      line-height: 45px;
+      border-radius: 10px;
+      font-weight: bold;
+}
+
+.lista {
+      font-size: 15px;
+      width: 20%;
+      margin: 0 auto;
+      border-radius: 10px;
+      font-family: cursive;
+      font-weight: bold;
+      color: rgba(101, 186, 235, 0.918);
+      background-color: rgba(66, 56, 197, 0.795);
+      line-height: 40px;
+      
+}
+    
+.box-comment {
+      font-size: 15px;
+      width: 20%;
+      margin: 0 auto;
+      font-family: cursive;
+      color: rgba(101, 186, 235, 0.918);
+      background-color: rgba(66, 56, 197, 0.795);
+      border-radius: 10px;
+      font-weight: bold;
+}
+  
+
+.button {
+      color: rgb(226, 131, 6);
+      border-radius: 30px;
+      background-color: rgba(15, 17, 66, 0.596);
+      font-weight: bold;
+      text-shadow: rgb(226, 227, 238) 2px 2px 8px;
+}
+  
+
 
 
